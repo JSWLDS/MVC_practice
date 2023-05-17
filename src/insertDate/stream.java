@@ -38,9 +38,9 @@ public class stream{
 
 //        ArrayList<LocalDate> dateList = (ArrayList<LocalDate>) getDatesBetweenTwoDates(startDate, endDate);
 
-        for(LocalTime i : timeList){
-            System.out.println(i);
-        }
+//        for(LocalTime i : timeList){
+//            System.out.println(i);
+//        }
 
     }
 

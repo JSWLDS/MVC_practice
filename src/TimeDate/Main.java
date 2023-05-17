@@ -13,12 +13,15 @@ public class Main {
 
         List<String> startDateTime =  collect_reduce.workTimeDate(startDate,endDate,startTime,endTime);
 
+        startDateTime.forEach(e -> System.out.println(e));
+
         startTime = "18-00";
         endTime = "20-00";
 
+        System.out.println("----------------------------------");
         List<String> endDateTime = collect_reduce.workTimeDate(startDate,endDate,startTime,endTime);
 
-        
+        endDateTime.forEach(e -> System.out.println(e));
 
 
     }
