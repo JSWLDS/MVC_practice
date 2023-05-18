@@ -15,7 +15,7 @@ public class Sql_inert_main {
         String startDate = "2023-01-01";
         String endDate = "2023-04-30";
 
-        for(int i=9417; i<10000; i++) {
+        for(int i=0; i<10000; i++) {
 
 
             String startTime = "09-30";

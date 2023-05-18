@@ -6,10 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="369e2cd8-b4ff-4079-a605-a503ef619b86" name="변경" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TimeDate/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TimeDate/Main_TEST.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sql_java_workHour/sql_inert.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sql_java_workHour/Sql_inert_main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sql_java_workHour/strRapping.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sql_java_workHour/tset.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sql_java_workHour/Sql_inert_main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sql_java_workHour/Sql_inert_main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -193,7 +190,7 @@
       <workItem from="1684309505261" duration="311000" />
       <workItem from="1684310213130" duration="3728000" />
       <workItem from="1684371511151" duration="8396000" />
-      <workItem from="1684384843703" duration="4520000" />
+      <workItem from="1684384843703" duration="5002000" />
     </task>
     <task id="LOCAL-00001" summary="intelij">
       <created>1684125097174</created>
@@ -251,7 +248,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684386345790</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="intelij">
+      <created>1684390404127</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1684390404127</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
