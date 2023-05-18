@@ -1,11 +1,10 @@
 package sql_java_workHour;
 
 import TimeDate.collect_reduce;
-import sql_java_workHour.mysqlConnection;
 
 import java.util.List;
 
-public class sql_inert {
+public class Sql_inert_main {
     public static void main(String[] args) throws ClassNotFoundException, InstantiationException, IllegalAccessException {
 
 
