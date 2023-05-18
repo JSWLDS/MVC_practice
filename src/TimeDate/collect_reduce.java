@@ -23,7 +23,7 @@ public class collect_reduce {
 
         DateTimeFormatter formatter =  DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm");
 
-        SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm");
+//        SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm");
 
         List<LocalDateTime> dateTimeList = IntStream.iterate(0, i -> i+1)
                 .limit(dateList.size())

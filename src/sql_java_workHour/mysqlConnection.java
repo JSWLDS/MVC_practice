@@ -25,8 +25,6 @@ public class mysqlConnection {
 
             pstatement.executeUpdate();
 
-            System.out.printf("\nsucessful : ");
-
 
         } catch (SQLException e) {
             throw new RuntimeException(e);

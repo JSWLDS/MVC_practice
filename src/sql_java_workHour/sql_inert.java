@@ -16,19 +16,11 @@ public class sql_inert {
         String startDate = "2023-01-01";
         String endDate = "2023-04-30";
 
-
-
-
-
-
-        int cnt = 1;
-        for(int i=0; i<10000; i++) {
-
+        for(int i=9417; i<10000; i++) {
 
 
             String startTime = "09-30";
             String endTime = "10-30";
-
 
             List<String> startDateTime =  collect_reduce.workTimeDate(startDate,endDate,startTime,endTime);
 
@@ -43,14 +35,14 @@ public class sql_inert {
                 if((Math.random()*100)>=20) {
 
                     Insert.insert(i + 1, k + 1, startDateTime.get(j), endDateTime.get(j));
-                    System.out.println(cnt++);
                     k++;
 
                  }
             }
 
         }
-
+        System.out.println("sucessful");
 
     }
+
 }
