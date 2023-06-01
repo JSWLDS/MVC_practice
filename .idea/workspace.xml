@@ -5,8 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="369e2cd8-b4ff-4079-a605-a503ef619b86" name="변경" comment="">
+      <change afterPath="$PROJECT_DIR$/src/insertDate/TEST2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/doc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/mysql_connector_j_8_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/mysql_connector_j_8_0.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sql_java/mysqlConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sql_java/mysqlConnection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sql_java/tset.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sql_java/tset.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sql_java_workHour/Sql_inert_main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sql_java_workHour/Sql_inert_main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sql_java_workHour/mysqlConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sql_java_workHour/mysqlConnection.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,30 +43,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/jswld/OneDrive/바탕 화면/mec&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;라이브러리&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.language&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/jswld/OneDrive/바탕 화면/mec",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "라이브러리",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;mysql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="sql_java" />
       <recent name="insertDate" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
@@ -77,13 +85,26 @@
       <recent name="insertDate" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.tset">
-    <configuration name="Main_TEST" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TimeDate.Main_TEST" />
+  <component name="RunManager" selected="애플리케이션.sql_inert">
+    <configuration name="Sql_inert_main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sql_java_workHour.Sql_inert_main" />
       <module name="mec" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="TimeDate.*" />
+          <option name="PATTERN" value="sql_java_workHour.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TEST2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="insertDate.TEST2" />
+      <module name="mec" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="insertDate.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -104,21 +125,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="sql_java_workHour.sql_inert" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sql_java_workHour.sql_inert" />
-      <module name="mec" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="sql_java_workHour.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="strRapping" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sql_java.strRapping" />
+    <configuration name="sql_java.tset" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sql_java.tset" />
       <module name="mec" />
       <extension name="coverage">
         <pattern>
@@ -130,12 +138,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="tset" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sql_java_workHour.tset" />
+    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.test" />
       <module name="mec" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="sql_java_workHour.*" />
+          <option name="PATTERN" value="test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -156,11 +164,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="애플리케이션.tset" />
-        <item itemvalue="애플리케이션.sql_java_workHour.sql_inert" />
         <item itemvalue="애플리케이션.sql_inert" />
-        <item itemvalue="애플리케이션.Main_TEST" />
-        <item itemvalue="애플리케이션.strRapping" />
+        <item itemvalue="애플리케이션.TEST2" />
+        <item itemvalue="애플리케이션.sql_java.tset" />
+        <item itemvalue="애플리케이션.Sql_inert_main" />
+        <item itemvalue="애플리케이션.test" />
       </list>
     </recent_temporary>
   </component>
@@ -190,7 +198,22 @@
       <workItem from="1684309505261" duration="311000" />
       <workItem from="1684310213130" duration="3728000" />
       <workItem from="1684371511151" duration="8396000" />
-      <workItem from="1684384843703" duration="5002000" />
+      <workItem from="1684384843703" duration="8889000" />
+      <workItem from="1684458010002" duration="1830000" />
+      <workItem from="1684469472514" duration="2677000" />
+      <workItem from="1684472424269" duration="2504000" />
+      <workItem from="1684479853029" duration="1713000" />
+      <workItem from="1684803582731" duration="2923000" />
+      <workItem from="1684814464018" duration="48000" />
+      <workItem from="1684903465758" duration="1630000" />
+      <workItem from="1684905117742" duration="612000" />
+      <workItem from="1684907670354" duration="1871000" />
+      <workItem from="1684915032025" duration="2727000" />
+      <workItem from="1684976372542" duration="1730000" />
+      <workItem from="1685412193955" duration="444000" />
+      <workItem from="1685413840134" duration="7277000" />
+      <workItem from="1685425239868" duration="293000" />
+      <workItem from="1685496082998" duration="650000" />
     </task>
     <task id="LOCAL-00001" summary="intelij">
       <created>1684125097174</created>
@@ -255,7 +278,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684390404127</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="intelij">
+      <created>1684390888928</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1684390888928</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -5,17 +5,17 @@ import java.sql.*;
 public class mysqlConnection {
     public void insert(String name, int age, String department) {
 
-        String url = "jdbc:mysql://localhost:3306/test";
-        String userName = "myjsw";
+        String url = "jdbc:postgresql://localhost:5432/postgres";
+        String userName = "jsw";
         String password = "1234";
         String table_name = "employee";
-        String sql = "INSERT INTO " + table_name + " VALUES(NULL, ?, ?, ?)";
+        String sql = "INSERT INTO " + table_name + "(name, age, department) VALUES( ?, ?, ?)";
         PreparedStatement pstatement = null;
         Connection connection = null;
         try {
             // Driver 클래스 인스턴스 생성하여 반환함.
             // Driver 클래스 : Connetion 클래스의 연결 데이터를 Connetion 클래스에 전달함.
-            Class.forName("com.mysql.cj.jdbc.Driver");
+            Class.forName("org.postgresql.Driver");
 
             // 생성된 드라이버 인스턴스는 connection에 mysql 연결 정보를 제공
             connection = DriverManager.getConnection(url, userName, password);

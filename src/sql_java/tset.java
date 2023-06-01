@@ -1,56 +1,41 @@
 package sql_java;
 
+import java.time.LocalDate;
+import java.time.LocalDateTime;
+import java.time.LocalTime;
+import java.time.format.DateTimeFormatter;
 import java.util.Scanner;
 
 public class tset {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        System.out.println("입력");
-        int a = sc.nextInt();
-        int b = sc.nextInt();
-        int cnt = 0;
-        String[][] arr = new String[a][b];
-        String[] d = new String[a];
-        int g = 0;
-        int h = 0;
-        boolean tr = false;
 
-        for (int i = 0; i < a; i++) {
-            d[i] = String.valueOf(sc.next());
-        }
+        String startDate = "2023-01-01";
+        String endDate = "2023-04-30";
+        String startTime = "09:30";
+        String endTime = "10:30";
 
-        for (int i = 0; i < a; i++) {
-            for (int j = 0; j < b; j++) {
-                arr[i][j] = String.valueOf(d[i].charAt(j));
-            }
-        }
+        DateTimeFormatter dateFormatter =  DateTimeFormatter.ofPattern("yyyy-MM-dd");
+        DateTimeFormatter timeFormatter =  DateTimeFormatter.ofPattern("HH:mm");
 
-        System.out.println("~~~~~~~~~");
-//        for (int i = 0; i < a; i++) {
-//            System.out.println(d[i].indexOf("BW"));
-//        }
-        for (int i = 0; i < 8; i++) {
-            g = 0;
-            h = 0;
-            for (int j = 0; j < 8; ) {
-                if(true) {
-                    if (j < 1) {
-                        g = 0;
-                        h = 1;
 
-                    } else {
-                        g = j;
-                        h = j + 1;
-                    }
-                    j+=2;
-                }
-                if (arr[i][g].equals("W") && arr[i][h].equals("B") || arr[i][g].equals("B") && arr[i][h].equals("W")) {
-                } else {
-                    cnt++;
-                }
-            }
-        }
-        System.out.println(cnt);
+        LocalDate start_date = LocalDate.parse(startDate, dateFormatter);
+        LocalDate end_date = LocalDate.parse(endDate,dateFormatter);
+
+        LocalTime start_Time = LocalTime.parse(startTime, timeFormatter);
+        LocalTime end_Time = LocalTime.parse(endTime,timeFormatter);
+
+
+
+
+
+
+        LocalDateTime dateTime = LocalDateTime.of(start_date, start_Time);
+
+
+        System.out.println(dateTime);
+
+
+
     }
 }
 //        for (int i=0; i<a; i++){

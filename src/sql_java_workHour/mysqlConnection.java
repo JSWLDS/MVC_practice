@@ -3,13 +3,12 @@ package sql_java_workHour;
 import java.sql.*;
 
 public class mysqlConnection {
-    public void insert(int i, int j, String startDateTime, String endDateTime) {
+    public void insert(String sql) {
 
         String url = "jdbc:mysql://localhost:3306/test";
         String userName = "myjsw";
         String password = "1234";
-        String table_name = "workHours";
-        String sql = "INSERT INTO " + table_name + " VALUES(" + i + ", " + j + ", '" + startDateTime + "', '" + endDateTime + "' )";
+        String table_name = "employee";
         PreparedStatement pstatement = null;
         Connection connection = null;
         try {
@@ -46,7 +45,6 @@ public class mysqlConnection {
                     e.printStackTrace();
                 }
             }
-
         }
     }
 }
